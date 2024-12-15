@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="clicar()"></div>
+
+    <div class="header">
+        <a href="https://www.nintendo.com/pt-br/store/games/mario-games/?srsltid=AfmBOopeodxBlKPQ-82gnAMX5KkqEsdhmNk4-KQDVfPHwVG4G4YNyvQK#sort=df&p=0"
+            target="_blank">
+            <img src="./img/logo-header.png" alt="logo header do mario" class="mario">
+        </a>
+        <a href="">Home</a>
+        <a href="" class="servicos">Nossos serviços</a>
+        <a href="">Fale conosco</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <a href="https://www.nintendo.com/pt-pt/Jogos/Portal-Nintendo/Portal-Super-Mario/Portal-Super-Mario-627604.html"
+                target="_blank">
+                <img src="./img/logo.png" alt="logo do mario Bros" class="logo-mario">
+            </a>
+            <p>
+                🔧 <mark>Mario & Luigi</mark> - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧
+            </p>
+            <p>
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - <mark>Mario e Luigi</mark>!
+            </p>
+
+            <button class="botao-entre-contato" onclick="cliqueinobotao()">Entre em contato</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5511975764212?text=Preciso%20de%20Ajuda!!!" target="_blank" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp" class="zap">
+    </a>
+
+    <form 
+        class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/x-cBpaKDaYu" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome" class="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone" class="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button class="botao-orcamento" type="submit">Pedir orçamento</button>
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

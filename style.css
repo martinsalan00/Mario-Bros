@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.botao-entre-contato:hover {
+    color: red;
+    background-color: white;
+    font-size: 24spx;
+    transition: 0.5s ease-in-out;
+}
+
+.logo-mario {
+    height: 200px;
+}
+
+.imagem-mario-luigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+.header img {
+    height: 60px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.servicos {
+    margin-left: 20px;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.7s ease-in-out;
+}
+
+a .logo-mario:hover {
+    height: 205px;
+    transition: 0.7s ease-in-out;
+    background: none;
+}
+
+a .mario:hover {
+    height: 62px;
+    transition: 0.7s ease-in-out;
+}
+
+.imagem-mario-luigi:hover {
+    height: 510px;
+    transition: 0.5s ease-in-out;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    ;
+    position: fixed;
+    top: 0;
+}
+
+p {
+    color: aliceblue;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+a .zap:hover {
+    height: 80px;
+}
+
+.formulario-fale-conosco {
+    background: radial-gradient(circle, rgba(36, 0, 8, 1) 21%, rgba(0, 104, 255, 0.26934523809523814) 100%);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -300px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    color: gray;
+    font-weight: bold;
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid whitesmoke;
+    padding-left: 5px;
+    border-inline-color: black;
+    outline-color: rgb(54, 5, 5);
+    border-inline-color: outline-color: cornflowerblue;
+    ;
+}
+
+form input:hover {
+    color: gray;
+    background-color: transparent;
+    outline-color: cornflowerblue;
+}
+
+textarea {
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 0.5px solid whitesmoke;
+    padding-left: 5px;
+    padding-top: 8px;
+    outline-color: rgb(54, 5, 5);
+}
+
+form textarea:hover {
+    color: gray;
+    background-color: transparent;
+    border-inline-color: black;
+    outline-color: cornflowerblue;
+}
+
+.botao-orcamento {
+    color: gray;
+    background-color: black;
+    border: 0.5px solid whitesmoke;
+    margin: 35px;
+}
+
+.botao-orcamento:hover {
+    color: hsl(0, 0%, 96%);
+    background: transparent;
+    font-size: 1.1em;
+    border-inline-color: black;
+    outline-color: cornflowerblue;
+    transition: color 0.8s ease-in-out;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+
+/*
+
+    Inicial
+        top: 30%;
+        left: -300px;
+
+    
+    Final
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%)
+
+*/
+
+/* Media query
+
+Max -> Valor menor que Npx, aplica o CSS do MEDIA
+Min -> Valor maior que Npx, aplica o CSS do MEDIA
+
+*/
+
+@media (max-width: 1100px) {
+    
+    p {
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .caixa-principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagem-mario-luigi {
+        width: 80vw;
+        height: auto;
+    }
+
+    .header {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header a {
+        font-size: 18px;
+    }
+
+}
