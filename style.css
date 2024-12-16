@@ -110,7 +110,6 @@ video {
     height: 100%;
     width: 100%;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    ;
     position: fixed;
     top: 0;
 }
