@@ -5,7 +5,7 @@
   Precisando de um serviço?
 </h2>
  <p>
-  Nossa nova página de serviços, inspirada no universo do Mario Bros., vai te surpreender! Com uma interface intuitiva e design moderno, você encontra tudo o que precisa em um só lugar. 
+  Nossa nova página de serviços, inspirada no universo do <a href="https://www.nintendo.com/pt-pt/Jogos/Portal-Nintendo/Portal-Super-Mario/Portal-Super-Mario-627604.html?srsltid=AfmBOooxBxElo5-OR7el-6tvrlHwQZwQBwXKfJtzQ5iieqgRCAFMwJhe">Mario Bros.</a>, vai te surpreender! Com uma interface intuitiva e design moderno, você encontra tudo o que precisa em um só lugar. 
   Desenvolvido em parceria com o <a href="https://www.linkedin.com/in/rodolfomori/"> Rodolfo Mori </a> da <a href="https://aulas.devclub.com.br/m/home">Dev Club</a>.
 </p>
 <br>
