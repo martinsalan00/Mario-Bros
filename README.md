@@ -1,20 +1,20 @@
-<h1 align="center">Mario Bros</h1>
-<br>
-<br>
-<h2>
-  Precisando de um serviço?
-</h2>
- <p>
-  Nossa nova página de serviços, inspirada no universo do <a href="https://www.nintendo.com/pt-pt/Jogos/Portal-Nintendo/Portal-Super-Mario/Portal-Super-Mario-627604.html?srsltid=AfmBOooxBxElo5-OR7el-6tvrlHwQZwQBwXKfJtzQ5iieqgRCAFMwJhe">Mario Bros.</a>, vai te surpreender! Com uma interface intuitiva e design moderno, você encontra tudo o que precisa em um só lugar. 
-  Desenvolvido em parceria com o <a href="https://www.linkedin.com/in/rodolfomori/"> Rodolfo Mori </a> da <a href="https://aulas.devclub.com.br/m/home">Dev Club</a>.
-</p>
-<br>
-<h2>Tecnologias utilizadas:</h2>
+<h1>🚀 Mario Bros Services - Uma Página Interativa com HTML, CSS e JavaScript</h1>
+Este projeto é uma reinterpretação criativa do clássico Mario Bros, transformando sua nostalgia em uma página de serviços interativa. Desenvolvido com HTML, CSS e JavaScript, o objetivo foi unir elementos icônicos do jogo com uma interface intuitiva e moderna.
 
-<div style="display: inline-block" >
-                <img src="https://img.shields.io/badge/HTML5-E34F26?style-for-the-badge&logo-html5&logoColor-white" alt="html-logo" width="75px" height="35px" />
-                <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="css-logo" width="75px" height="35px" />
-                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="75px" height="35px" />
-</div>
-<br>
-<img src="https://github.com/martinsalan00/Mario-Bros/blob/master/img/Projeto-mario-bros.png?raw=true"/>
+🎮 Sobre o Projeto
+Inspirado no universo de Mario Bros, este projeto traz uma experiência visual e interativa que remete aos jogos clássicos, mas com um toque inovador para exibir serviços de forma dinâmica.
+
+🛠️ Tecnologias Utilizadas
+✅ HTML5 para a estrutura da página
+✅ CSS3 com animações e estilizações modernas
+✅ JavaScript para interatividade e dinamismo
+🌟 Destaques
+Elementos gráficos e referências nostálgicas ao jogo
+Animações e interatividade para uma experiência envolvente
+Interface intuitiva e acessível
+
+📢 Contribuições
+Sugestões e melhorias são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Se quiser ajustes ou mais detalhes, me avise! 🚀
+
