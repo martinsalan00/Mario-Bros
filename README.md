@@ -16,5 +16,4 @@ Interface intuitiva e acessível
 📢 Contribuições
 Sugestões e melhorias são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Se quiser ajustes ou mais detalhes, me avise! 🚀
 
